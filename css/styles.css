@@ -9,7 +9,7 @@ body, hmtl{
 
 @font-face {
     font-family: "Zabal";
-    src: url(/Fontes/Zabal/ZabalDEMO-Medium.otf);
+    src: url(../Fontes/Zabal/ZabalDEMO-Medium.otf);
 }
 
 html {
