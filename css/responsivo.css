@@ -100,6 +100,11 @@
 }
 
 @media screen and (max-width: 460px) {
+
+    ul{
+        display: none;
+    }
+
     .mobile{
         margin-left: -4vh;
         padding: 0;
@@ -128,9 +133,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    ul{
-        display: none;
-    }
+
 
     .banner{
         width: 60vh;
