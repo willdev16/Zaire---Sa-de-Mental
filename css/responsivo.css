@@ -1,0 +1,147 @@
+@media screen and (max-width: 1024px) {
+    ul{
+        width: 70%;
+    }
+
+    .mobile h3{
+        margin-top: 10vh;
+    }
+
+    .mobile{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }   
+
+    .mobile img{
+        display: none;
+    }
+
+    .caixa-de-texto{
+        width: 80%;
+    }
+
+    .sobre-app{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-app .caixa-de-texto-2 p, .caixa-de-texto-2 h4{
+        padding: 0;
+        margin: 0;
+    }
+
+    .sobre-app img{
+       display: none;
+    }    
+
+    .caixa-de-texto-2{
+        width: 80%;
+    }
+
+    .conteudo-footer{
+        flex-direction: column;
+    }
+
+    footer iframe{
+        display: flex;
+    }
+
+    #links-uteis{
+        margin: 10vh;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    ul li{
+        display: none;
+    }
+
+    .download{
+        display: flex   ;
+        justify-self: end;
+    }
+    
+    ul{
+        display: block;
+        margin: 0;
+    }
+
+    .banner img{
+        min-width: 100%;
+    }
+    
+    footer iframe{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer article{
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .mobile{
+        width: 100%;
+        display: flex;
+        margin-left: -1vh;
+        align-items: baseline;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .mobile{
+        margin-left: -4vh;
+        padding: 0;
+        width: 100%;
+    }
+
+    .caixa-de-texto{
+        margin-left: -9vh;
+        padding: 0;
+    }
+
+    .mobile h3{
+        margin-top: 5vh;
+        font-size: 1.3rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+    }
+
+    .caixa-de-texto{
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    ul{
+        display: none;
+    }
+
+    .banner{
+        width: 60vh;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+
+        transform: translateX(-10vh);
+    }
+
+    .developers, .creditos{
+        padding: 5vh;
+    }
+}
