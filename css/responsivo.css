@@ -1,141 +1,169 @@
 @media screen and (max-width: 1024px) {
-    ul{
+    ul {
         width: 70%;
     }
 
-    .mobile h3{
+    .mobile h3 {
         margin-top: 10vh;
     }
 
-    .mobile{
+    .mobile {
         flex-direction: column-reverse;
         justify-content: center;
-    }   
+    }
 
-    .mobile img{
+    .mobile img {
         display: none;
     }
 
-    .caixa-de-texto{
+    .caixa-de-texto {
         width: 80%;
     }
 
-    .sobre-app{
+    .sobre-app {
         flex-direction: column-reverse;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .sobre-app .caixa-de-texto-2 p, .caixa-de-texto-2 h4{
+    .sobre-app .caixa-de-texto-2 p,
+    .caixa-de-texto-2 h4 {
         padding: 0;
         margin: 0;
     }
 
-    .sobre-app img{
-       display: none;
-    }    
-
-    .caixa-de-texto-2{
-        width: 80%;
-    }
-
-    .conteudo-footer{
-        flex-direction: column;
-    }
-
-    footer iframe{
-        display: flex;
-    }
-
-    #links-uteis{
-        margin: 10vh;
-    }
-    
-}
-
-@media screen and (max-width: 768px) {
-    ul li{
+    .sobre-app img {
         display: none;
     }
 
-    .download{
-        display: flex   ;
+    .caixa-de-texto-2 {
+        width: 80%;
+    }
+
+    .conteudo-footer {
+        flex-direction: column;
+    }
+
+    footer iframe {
+        display: flex;
+    }
+
+    #links-uteis {
+        margin: 10vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    ul li {
+        display: none;
+    }
+
+    .download {
+        display: flex;
         justify-self: end;
     }
-    
-    ul{
+
+    ul {
         display: block;
         margin: 0;
     }
 
-    .banner img{
+    .banner img {
         min-width: 100%;
     }
-    
-    footer iframe{
+
+    footer iframe {
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
-    footer article{
+    footer article {
         width: 55%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .informacoes{
+    .informacoes {
         flex-direction: column;
         justify-content: space-evenly;
+
     }
 
-    .mobile{
+    .developers,
+    .creditos {
+        padding: 3vh;
+        font-size: 1rem;
+    }
+
+
+
+    .mobile {
         width: 100%;
         display: flex;
         margin-left: -1vh;
         align-items: baseline;
     }
+
+    .iframe{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 460px) {
 
-    ul{
+    .banner {
+        background-image: url('../Imagens/banner-zaire-mobile.jpg');
+        transform: translateX(0);
+        background-size: cover;
+        background-position: 60% center;
+    }
+
+    ul {
         display: none;
     }
 
-    .mobile{
+    .mobile {
         margin-left: -4vh;
         padding: 0;
         width: 100%;
     }
 
-    .caixa-de-texto{
+    .caixa-de-texto {
         margin-left: -9vh;
         padding: 0;
     }
 
-    .mobile h3{
+    .mobile h3 {
         margin-top: 5vh;
         font-size: 1.3rem;
     }
 
-    h4{
+    h4 {
         font-size: 1.5rem;
     }
 
-    .caixa-de-texto{
+    .caixa-de-texto {
         padding: 0;
         margin: 0;
     }
+
+    footer iframe{
+        width: 100%;
+        margin: 0;
+    }
+
+    
 
 }
 
 @media screen and (max-width: 375px) {
 
 
-    .banner{
+    .banner {
         width: 60vh;
         overflow-x: hidden;
         background-size: cover;
@@ -144,7 +172,10 @@
         transform: translateX(-10vh);
     }
 
-    .developers, .creditos{
+    .developers,
+    .creditos {
         padding: 5vh;
     }
+
+    
 }

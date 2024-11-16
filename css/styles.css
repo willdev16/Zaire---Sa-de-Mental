@@ -375,3 +375,15 @@ footer article iframe {
     font-family: "poppins";
 }
 
+#zelmo{
+    position: absolute;    
+    transform: translateY(-20vh);
+}
+
+#nosso-app-a{
+    position: absolute;
+    background-color: #5F7B7D;
+    width: 100px;
+    height: 10px;
+    transform: translateY(-20vh);
+}
