@@ -16,9 +16,9 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body {  
     background-color: #FAF0E4;
-    
+    color: #000000;
 }
 
 nav {
@@ -382,8 +382,5 @@ footer article iframe {
 
 #nosso-app-a{
     position: absolute;
-    background-color: #5F7B7D;
-    width: 100px;
-    height: 10px;
     transform: translateY(-20vh);
 }

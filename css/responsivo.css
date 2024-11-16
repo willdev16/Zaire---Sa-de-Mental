@@ -116,10 +116,16 @@
 @media screen and (max-width: 460px) {
 
     .banner {
-        background-image: url('../Imagens/banner-zaire-mobile.jpg');
         transform: translateX(0);
-        background-size: cover;
-        background-position: 60% center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        height: 70vh;
+    }
+
+    .break{
+        height: 10vh;
     }
 
     ul {
@@ -164,13 +170,9 @@
 
 
     .banner {
-        width: 60vh;
-        overflow-x: hidden;
-        background-size: cover;
-        background-position: center;
-
-        transform: translateX(-10vh);
+        height: 50vh;
     }
+
 
     .developers,
     .creditos {
